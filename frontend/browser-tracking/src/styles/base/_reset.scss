@@ -1,0 +1,85 @@
+/* === Base Reset === */
+
+/* Box sizing and margins */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Reset headings, paragraphs, and text elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/* Remove link underlines and set inherit color */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset buttons and inputs */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+  appearance: none;
+}
+
+/* Buttons and inputs should still be clickable */
+button {
+  cursor: pointer;
+}
+
+/* Make images responsive */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Reset tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove default body margins */
+body {
+  margin: 0;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Form elements inherit font and color */
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}

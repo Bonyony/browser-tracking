@@ -1,0 +1,9 @@
+@use "../abstracts" as *;
+
+a {
+  color: $dark-cyan;
+
+  &:hover {
+    font-style: italic;
+  }
+}
